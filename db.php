@@ -1,5 +1,5 @@
 <?php
-	$conn=new mysqli('localhost', 'root', 'root', 'users_app');
+	$conn=new mysqli('localhost', 'username', 'password', 'db');
 	if(!$conn){
 		die(mysqli_error($conn));
 	}
